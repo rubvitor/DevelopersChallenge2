@@ -16,7 +16,7 @@ Através do recrutamento no LinkedIn
 
 Observações sobre a aplicação:
 
-O projeto back-end foi feito em .net core e para rodar é necessário utilizar Visua Studio 2019.
+O projeto back-end foi feito em .net core e para rodar é necessário utilizar Visual Studio 2019.
 O projeto front foi feito em Angular 9. Necessário ter o node.js instalado e alguma IDE como Visual Studio Code
 
 O front está na pasta src/src/FinantialManager.UI.Web.
