@@ -3,21 +3,28 @@ Meu perfil
 
 **Nome completo:**   
 Rubens Vitor de Barros Almeida
+
 **Data de nascimento:** 
 31/05/1985
+
 **LinkedIn:**    
 https://www.linkedin.com/in/rubens-vitor/
+
 **Como nos conheceu:** 
-AtravÈs do recrutamento no LinkedIn
+Atrav√©s do recrutamento no LinkedIn
 
 
-ObservaÁıes sobre a aplicaÁ„o:
+Observa√ß√µes sobre a aplica√ß√£o:
 
-O projeto back-end foi feito em .net core e para rodar È necess·rio utilizar Visua Studio 2019
-O projeto front foi feito em Angular 9. Necess·rio ter o node.js instalado e alguma IDE como Visual Studio Code
+O projeto back-end foi feito em .net core e para rodar √© necess√°rio utilizar Visua Studio 2019
+O projeto front foi feito em Angular 9. Necess√°rio ter o node.js instalado e alguma IDE como Visual Studio Code
 
-As configuraÁıes do Front est„o no arquivo enviroment caso seja necess·rio mudar a porta de comunicaÁ„o do front com a api.
+O front est√° na pasta src/src/FinantialManager.UI.Web.
 
-Email e senha padr„o para acesso ao front e back
+Quando abrir a pasta Finantoal.UI.Web em sua IDE rodar o comando "npm install" e aguardar a instala√ß√£o dos pacotes. Ap√≥s a instala√ß√£o rodar o comando "npm start".
+
+As configura√ß√µes do Front est√£o no arquivo enviroment caso seja necess√°rio mudar a porta de comunica√ß√£o do front com a api.
+
+Email e senha padr√£o para acesso ao front e back
 Email: xayah@esports.com
 Password: 123456
