@@ -35,7 +35,7 @@ O front está na pasta src/src/FinantialManager.UI.Web.
 As configurações do Front estão no arquivo enviroment caso seja necessário mudar a porta de comunicação do front com a api.
 Enviroment path: \src\src\FinantialManager.UI.Web\src\environments
 
-Quando abrir a pasta Finantoal.UI.Web em sua IDE rodar o comando "npm install" e aguardar a instalação dos pacotes. Após a instalação rodar o comando "npm start".
+Quando abrir a pasta Finantial.UI.Web em sua IDE rodar o comando "npm install" e aguardar a instalação dos pacotes. Após a instalação rodar o comando "npm start".
 
 --> Email e senha padrão para acesso ao front e back
 --> Email: xayah@esports.com
