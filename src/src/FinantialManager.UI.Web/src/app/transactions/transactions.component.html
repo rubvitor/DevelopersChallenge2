@@ -1,0 +1,51 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <app-search-form-transactions (transactionsResponse)="responseTransactions($event)"></app-search-form-transactions>
+      <div *ngIf="stmttrnModelList && stmttrnModelList.length > 0" class="row">
+          <div class="col-md-12">
+              <div class="card">
+                  <div class="card-header card-header-primary">
+                      <h4 class="card-title ">Transactions</h4>
+                      <p class="card-category">Transactions from AccountId and BankId</p>
+                  </div>
+                  <div class="card-body">
+                      <div class="table-responsive">
+                          <table datatable [dtOptions]="dtOptions" class="table" [dtTrigger]="dtTrigger">
+                              <thead class="text-primary">
+                                  <th>
+                                      Transaction Type
+                                  </th>
+                                  <th>
+                                      Date
+                                  </th>
+                                  <th>
+                                      Value
+                                  </th>
+                                  <th>
+                                      From/To
+                                  </th>
+                              </thead>
+                              <tbody>
+                                  <tr *ngFor="let tran of stmttrnModelList">
+                                      <td>
+                                         {{tran.trntype}}
+                                      </td>
+                                      <td>
+                                        {{tran.dtposted}}
+                                      </td>
+                                      <td>
+                                        {{tran.trnamt}}
+                                      </td>
+                                      <td>
+                                        {{tran.memo}}
+                                      </td>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>

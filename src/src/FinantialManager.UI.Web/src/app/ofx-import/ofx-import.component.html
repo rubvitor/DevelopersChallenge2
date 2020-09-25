@@ -1,0 +1,24 @@
+<div class="main-content">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="card">
+                  <div class="card-header card-header-warning card-header-icon">
+                      <div class="card-icon">
+                          <i class="material-icons">content_copy</i>
+                      </div>
+                      <h3 class="card-title">
+                          <small>Please, import here your OFX file.</small>
+                      </h3>
+                  </div>
+                  <div class="card-body" style="margin-top: 20px;">
+                    <p style="color: #000">
+                      <input type="file" multiple name="file[]" id="ofxFiles" (change)="onFileChange($event)">
+                    </p>
+                    <button mat-raised-button type="button" class="btn btn-sucess pull-right" (click)="enviarOFX()">Enviar</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>

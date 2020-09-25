@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FinantialManager.Domain\FinantialManager.Domain.csproj" />
+    <ProjectReference Include="..\FinantialManager.Infra.Data\FinantialManager.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

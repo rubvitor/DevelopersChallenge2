@@ -1,0 +1,30 @@
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title ">Search Transaction</h4>
+                    </div>
+                    <div class="card-body">
+                        <form [formGroup]="transactionForm" (ngSubmit)="getTransactionByAccount($event)">
+                          <div class="row">
+                            <div class="col-md-2">
+                              <mat-form-field class="example-full-width">
+                                <input matInput type="number" placeholder="Bank ID" formControlName="bankId">
+                              </mat-form-field>
+                            </div>
+                            <div class="col-md-10">
+                            <mat-form-field class="example-full-width">
+                              <input matInput type="number" placeholder="Account (ACCTID)" formControlName="account">
+                            </mat-form-field>
+                          </div>
+                          </div>
+                          <div class="row" style="float: right;">
+                            <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary" [disabled]="transactionForm.invalid" [disabled]="!transactionForm.valid">Search</button>
+                          </div>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </div>
